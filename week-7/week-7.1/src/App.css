@@ -1,0 +1,42 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  display: flex;
+  justify-content:space-between;
+  height: 100px;
+  width: auto;
+  background-color: blueviolet;
+}
+
+.header-pic img {
+  height: 90px;
+  width: 90px;
+  border-radius: 50% 50%;
+  margin-left: 2rem;
+  margin-top: 0.3rem;
+}
+
+.navbar {
+  display: flex;
+  margin: auto ;
+  margin-left: 60rem;
+  justify-content: space-evenly;
+  width: 600em;
+}
+
+.navitem a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.dashboard, .landing {
+  font-size: 50px;
+  margin-top: 10rem;
+  text-align: center;
+  color: red;
+  font: italic;
+}
